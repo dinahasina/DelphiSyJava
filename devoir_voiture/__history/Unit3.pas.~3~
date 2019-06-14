@@ -1,0 +1,13 @@
+unit Unit3;
+interface
+uses Unit2;
+type
+  Avion = class(Voiture)
+  public
+  procedure voler();
+  end;
+implementation
+procedure Avion.voler();
+begin
+end;
+end.

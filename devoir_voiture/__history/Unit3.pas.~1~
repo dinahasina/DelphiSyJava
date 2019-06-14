@@ -1,0 +1,9 @@
+unit Unit3;
+interface
+uses Unit2;
+type
+  Avion = class(Voiture)
+
+  end;
+implementation
+end.

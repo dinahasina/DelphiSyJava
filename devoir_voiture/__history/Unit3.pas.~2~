@@ -1,0 +1,13 @@
+unit Unit3;
+interface
+uses Unit2;
+type
+  Avion = class(Voiture)
+  public
+  procedure voller();
+  end;
+implementation
+procedure Avion.voller();
+begin
+end;
+end.
